@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/bg-intro-desktop.png');
+    background-size:auto;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF7979;
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
+
+.container {
+    color: white;
+    max-width: 1440px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.information {
+  max-width: 36%;
+  text-align: left;
+  padding: 30px;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+
+
+.description {
+    font-size: 1rem;
+}
+
+.offer {
+    background: #5E54A4;
+    font-size: 15px;
+    padding: 10px 15px;
+    size: 100%;
+    border-radius: 8px;
+    box-shadow: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 29em;
+}
+
+#signupForm {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 26em;
+    height: 30em;
+    padding: 30px;
+}
+
+.form-information {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+    border: none;
+    color: #3D3B48;
+    padding-inline: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-field-input {
+  width: calc(90% - 20px);
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+
+.first-name {
+    margin-top: 20px;
+}
+.submit-button {
+    background: #38CC8B;
+    color: white;
+    box-shadow: #38CC8B;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.form-messages {
+  color: #FF7979;
+  text-align: right;
+  font-size: 0.7em;
+  padding-right: 20px;
+}
+
+.terms {
+  color: #B4B7D4;
+  font-size: 0.7rem;
+}
+
+.terms strong {
+  color: #FF7979;
+}
+.flex {
+    flex: 1;
+    -ms-flex: 1;
+  }
+  
+  .row {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+  }
+  
+  .column {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  
+  .start-center {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .start-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .start-end {
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  
+  .center-start {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .center-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-end {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .end-center {
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .space-around-start {
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .space-around-center {
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .space-around-end {
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  
+  .space-between-center {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .space-between-start {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .space-between-end {
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+
+
+
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  

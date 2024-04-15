@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <div class="background column center-center">
+    <div class="color-overlay"></div>
+    <div class="container row center-center poppins-regular">
+      <div class="column center-center information">
+        <div class="title poppins-bold">Learn to code by watching others</div>
+        <div class="description poppins-light">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+        </div>
+      </div>
+
+    <div class="column center-center form-information">
+      <div class="offer poppins-light"">
+        <strong>Try it free 7 days</strong> then $20/mo. thereafter
+      </div>
+      <form id="signupForm">
+        <fieldset>
+          <input class="form-field-input first-name" name="firstName" type="text" id="firstName" required placeholder="First Name">
+          <div class="form-messages" id="first-name-message"></div>
+        </fieldset>
+        <fieldset>
+          <input class="form-field-input" name="lastName" type="text" id="lastName" required placeholder="Last Name">
+          <div class="form-messages" id="last-name-message"></div>
+        </fieldset>
+        <fieldset>
+          <input class="form-field-input" name="email" type="email" id="email" required placeholder="Email">
+          <div class="form-messages" id="email-message"></div>
+        </fieldset>
+        <fieldset>
+          <input class="form-field-input" name="password" type="password" id="password" required placeholder="Password">
+          <div class="form-messages" id="password-message"></div>
+        </fieldset>
+        <button type="button" class="submit-button" id="submit">CLAIM YOUT FREE TRIAL</button>
+        <div>
+          <small class="terms">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></small>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
